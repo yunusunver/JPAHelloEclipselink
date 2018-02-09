@@ -3,6 +3,7 @@
   <persistence-unit name="HelloEclipselinkJPAPU" transaction-type="RESOURCE_LOCAL">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>_01.hello.eclipselink.model.Employee</class>
+    <class>_02.field.access.model.Employee2</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/eclipselink"/>
       <property name="javax.persistence.jdbc.user" value="root"/>
